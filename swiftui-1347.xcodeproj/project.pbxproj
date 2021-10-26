@@ -3,23 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128CE272272873410032A234 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CE271272873410032A234 /* LoginView.swift */; };
+		128CE274272874790032A234 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CE273272874790032A234 /* CitiesView.swift */; };
 		1298D1E82720863A00D833EA /* swiftui_1347App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1E72720863A00D833EA /* swiftui_1347App.swift */; };
 		1298D1EA2720863A00D833EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1E92720863A00D833EA /* ContentView.swift */; };
 		1298D1EC2720863C00D833EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298D1EB2720863C00D833EA /* Assets.xcassets */; };
 		1298D1EF2720863C00D833EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298D1EE2720863C00D833EA /* Preview Assets.xcassets */; };
+		12E1CFB12728804500BA49FC /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 12E1CFB02728804500BA49FC /* ASCollectionView */; };
+		12E8133C27231B8A000F8600 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E8133B27231B8A000F8600 /* SwiftUIView2.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		128CE27B27287E990032A234 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		128CE271272873410032A234 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		128CE273272874790032A234 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
 		1298D1E42720863A00D833EA /* swiftui-1347.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-1347.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1298D1E72720863A00D833EA /* swiftui_1347App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_1347App.swift; sourceTree = "<group>"; };
 		1298D1E92720863A00D833EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1298D1EB2720863C00D833EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1298D1EE2720863C00D833EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1298D1F02720863C00D833EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E8133B27231B8A000F8600 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +47,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E1CFB12728804500BA49FC /* ASCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		128CE27027286CA00032A234 /* Lesson-3 */ = {
+			isa = PBXGroup;
+			children = (
+				128CE271272873410032A234 /* LoginView.swift */,
+				128CE273272874790032A234 /* CitiesView.swift */,
+			);
+			path = "Lesson-3";
+			sourceTree = "<group>";
+		};
 		1298D1DB2720863A00D833EA = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				1298D1E72720863A00D833EA /* swiftui_1347App.swift */,
-				1298D1E92720863A00D833EA /* ContentView.swift */,
+				128CE27027286CA00032A234 /* Lesson-3 */,
+				12E8133A27231B6C000F8600 /* Lesson-2 */,
+				12E8133D27231B90000F8600 /* Lesson-1 */,
 				1298D1EB2720863C00D833EA /* Assets.xcassets */,
 				1298D1F02720863C00D833EA /* Info.plist */,
 				1298D1ED2720863C00D833EA /* Preview Content */,
@@ -69,6 +101,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		12E8133A27231B6C000F8600 /* Lesson-2 */ = {
+			isa = PBXGroup;
+			children = (
+				12E8133B27231B8A000F8600 /* SwiftUIView2.swift */,
+			);
+			path = "Lesson-2";
+			sourceTree = "<group>";
+		};
+		12E8133D27231B90000F8600 /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				1298D1E92720863A00D833EA /* ContentView.swift */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,12 +127,16 @@
 				1298D1E02720863A00D833EA /* Sources */,
 				1298D1E12720863A00D833EA /* Frameworks */,
 				1298D1E22720863A00D833EA /* Resources */,
+				128CE27B27287E990032A234 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "swiftui-1347";
+			packageProductDependencies = (
+				12E1CFB02728804500BA49FC /* ASCollectionView */,
+			);
 			productName = "swiftui-1347";
 			productReference = 1298D1E42720863A00D833EA /* swiftui-1347.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 1298D1DB2720863A00D833EA;
+			packageReferences = (
+				12E1CFAF2728804500BA49FC /* XCRemoteSwiftPackageReference "ASCollectionView" */,
+			);
 			productRefGroup = 1298D1E52720863A00D833EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128CE274272874790032A234 /* CitiesView.swift in Sources */,
 				1298D1EA2720863A00D833EA /* ContentView.swift in Sources */,
 				1298D1E82720863A00D833EA /* swiftui_1347App.swift in Sources */,
+				128CE272272873410032A234 /* LoginView.swift in Sources */,
+				12E8133C27231B8A000F8600 /* SwiftUIView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12E1CFAF2728804500BA49FC /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apptekstudios/ASCollectionView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12E1CFB02728804500BA49FC /* ASCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12E1CFAF2728804500BA49FC /* XCRemoteSwiftPackageReference "ASCollectionView" */;
+			productName = ASCollectionView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1298D1DC2720863A00D833EA /* Project object */;
 }
