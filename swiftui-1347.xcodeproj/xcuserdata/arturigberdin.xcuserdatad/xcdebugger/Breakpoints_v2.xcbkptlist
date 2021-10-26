@@ -3,4 +3,85 @@
    uuid = "61C45C21-2726-4242-B98E-188FBF1400F2"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED3BC039-9933-4298-9801-FA6CD2C8AE33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftui-1347/Lesson-3/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "verifyLoginData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "039431DE-44B3-479F-AE83-4140AD9569F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftui-1347/Lesson-3/CitiesView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "039431DE-44B3-479F-AE83-4140AD9569F6 - 54beff575f650ad2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftui_1347.CitiesView.body.getter : some"
+                  moduleName = "swiftui-1347"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturigberdin/Desktop/swiftui-1347/swiftui-1347/Lesson-3/CitiesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "039431DE-44B3-479F-AE83-4140AD9569F6 - 83e5dd76cc23b005"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (swiftui_1347.City) -&gt; SwiftUI.Text in swiftui_1347.CitiesView.body.getter : some"
+                  moduleName = "swiftui-1347"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturigberdin/Desktop/swiftui-1347/swiftui-1347/Lesson-3/CitiesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "039431DE-44B3-479F-AE83-4140AD9569F6 - 83e5dd76cc23b026"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (swiftui_1347.City) -&gt; SwiftUI.Text in swiftui_1347.CitiesView.body.getter : some"
+                  moduleName = "swiftui-1347"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturigberdin/Desktop/swiftui-1347/swiftui-1347/Lesson-3/CitiesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

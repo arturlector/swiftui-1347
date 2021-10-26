@@ -1,18 +1,21 @@
 //
-//  ContentView.swift
+//  LoginView.swift
 //  swiftui-1347
 //
-//  Created by Artur Igberdin on 20.10.2021.
+//  Created by Artur Igberdin on 26.10.2021.
 //
 
 import SwiftUI
 import Combine
 
-struct ContentView: View {
+struct LoginView: View {
+    
+    @Binding var shouldShowCitiesView: Bool
     
     @State var login: String = ""
     @State var password: String = ""
     @State private var shouldShowLogo: Bool = true
+    @State private var showIncorrentCredentialsWarning = false
     
     private let keyboardIsOnPublisher = Publishers.Merge(
           NotificationCenter.default.publisher(for: UIResponder.keyboardWillChangeFrameNotification)
@@ -36,8 +39,7 @@ struct ContentView: View {
                     .frame(width: geomerty.size.width, height: geomerty.size.height)
             }
             .ignoresSafeArea(.keyboard, edges: .all)
-            
-            
+        
             ScrollView() {
                 VStack {
                     
@@ -48,7 +50,6 @@ struct ContentView: View {
                    }
                     
                     HStack {
-                        //Spacer()
                         Text("Login:")
                         Spacer()
                         TextField("Enter email", text: $login)
@@ -56,26 +57,29 @@ struct ContentView: View {
                     }
                     
                     HStack {
-                        //Spacer()
                         Text("Password:")
                         Spacer()
                         SecureField("Enter password", text: $password)
                             .frame(maxWidth: 150)
-                            
                     }
                     
+//                    Button(action: verifyLoginData) {
+//                        Text("Log in")
+//                    }
+                    
                     Button(action: {
-                        print("Hello")
+                        self.verifyLoginData()
                     }, label: {
                         Text("Log in")
                     })
                     .padding()
                     .accentColor(.white)
                     .disabled(self.login.isEmpty || self.password.isEmpty)
-                    
+
                     
                     Spacer()
                 }
+                .autocapitalization(.none)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .frame(maxWidth: 250)
                 .padding()
@@ -86,13 +90,30 @@ struct ContentView: View {
                 }
 
             })
-            //.background(Image("sunny-weather").resizable().ignoresSafeArea(.all).scaledToFill())
+  
         }
         .onTapGesture {
             UIApplication.shared.endEditing()
         }
+        .alert(isPresented: self.$showIncorrentCredentialsWarning, content: {
+            
+            Alert(title: Text("Incorrect Credentials"), message: Text("Incorrect login or password"), dismissButton: .cancel())
+        })
+    }
+    
+    private func verifyLoginData() {
+        if login == "bar" && password == "foo" {
+            // authorizing user
+            shouldShowCitiesView = true
+        } else {
+            showIncorrentCredentialsWarning = true
+        }
+        // сбрасываем пароль, после проверки для лучшего UX
+        password = ""
     }
 }
+
+
 
 extension UIApplication {
     func endEditing() {
@@ -100,8 +121,8 @@ extension UIApplication {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginView(shouldShowCitiesView: .constant(false))
     }
 }
