@@ -117,18 +117,18 @@ struct AlignmentGuide: View {
     }
 }
 
-struct WeatherView: View {
-    var body: some View {
-        Image("sun")
-            .border(Color.red)
-            //.frame(width: 10, height: 200)
-            .padding()
-            .border(Color.blue)
-            .debug()
-           
-            
-    }
-}
+//struct WeatherView: View {
+//    var body: some View {
+//        Image("sun")
+//            .border(Color.red)
+//            //.frame(width: 10, height: 200)
+//            .padding()
+//            .border(Color.blue)
+//            .debug()
+//           
+//            
+//    }
+//}
 
 extension View {
     func debug() -> some View {

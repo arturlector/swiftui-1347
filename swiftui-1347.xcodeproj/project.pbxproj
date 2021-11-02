@@ -13,6 +13,24 @@
 		1298D1EA2720863A00D833EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1E92720863A00D833EA /* ContentView.swift */; };
 		1298D1EC2720863C00D833EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298D1EB2720863C00D833EA /* Assets.xcassets */; };
 		1298D1EF2720863C00D833EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298D1EE2720863C00D833EA /* Preview Assets.xcassets */; };
+		12DB3A802731A9BE004AB104 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A7F2731A9BE004AB104 /* ForecastViewModel.swift */; };
+		12DB3A822731AA19004AB104 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A812731AA19004AB104 /* ForecastView.swift */; };
+		12DB3A842731AA62004AB104 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A832731AA62004AB104 /* Weather.swift */; };
+		12DB3A872731AB1E004AB104 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 12DB3A862731AB1E004AB104 /* SwiftyJSON */; };
+		12DB3A8A2731AC9C004AB104 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 12DB3A892731AC9C004AB104 /* Alamofire */; };
+		12DB3A8D2731ACF3004AB104 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A8C2731ACF3004AB104 /* WeatherService.swift */; };
+		12DB3A8F2731ADEC004AB104 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A8E2731ADEC004AB104 /* BackendError.swift */; };
+		12DB3A922731AF4B004AB104 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 12DB3A912731AF4B004AB104 /* Realm */; };
+		12DB3A942731AF4B004AB104 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 12DB3A932731AF4B004AB104 /* RealmSwift */; };
+		12DB3A972731B35E004AB104 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 12DB3A962731B35E004AB104 /* KingfisherSwiftUI */; };
+		12DB3A9A2731B40E004AB104 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A992731B40E004AB104 /* DateFormatterExtension.swift */; };
+		12DB3A9C2731B4BC004AB104 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A9B2731B4BC004AB104 /* RealmService.swift */; };
+		12DB3A9E2731B76B004AB104 /* DetachableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3A9D2731B76B004AB104 /* DetachableObject.swift */; };
+		12DB3AA32731B8FA004AB104 /* City.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3AA12731B8FA004AB104 /* City.xcdatamodeld */; };
+		12DB3AA52731B953004AB104 /* City2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3AA42731B953004AB104 /* City2.swift */; };
+		12DB3AAC2731BA83004AB104 /* City+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3AAA2731BA83004AB104 /* City+CoreDataClass.swift */; };
+		12DB3AAD2731BA83004AB104 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3AAB2731BA83004AB104 /* City+CoreDataProperties.swift */; };
+		12DB3AAF2731BECF004AB104 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DB3AAE2731BECF004AB104 /* CoreDataService.swift */; };
 		12E1CFB12728804500BA49FC /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 12E1CFB02728804500BA49FC /* ASCollectionView */; };
 		12E8133C27231B8A000F8600 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E8133B27231B8A000F8600 /* SwiftUIView2.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +57,19 @@
 		1298D1EB2720863C00D833EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1298D1EE2720863C00D833EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1298D1F02720863C00D833EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DB3A7F2731A9BE004AB104 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		12DB3A812731AA19004AB104 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		12DB3A832731AA62004AB104 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		12DB3A8C2731ACF3004AB104 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		12DB3A8E2731ADEC004AB104 /* BackendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
+		12DB3A992731B40E004AB104 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		12DB3A9B2731B4BC004AB104 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		12DB3A9D2731B76B004AB104 /* DetachableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetachableObject.swift; sourceTree = "<group>"; };
+		12DB3AA22731B8FA004AB104 /* City.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = City.xcdatamodel; sourceTree = "<group>"; };
+		12DB3AA42731B953004AB104 /* City2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City2.swift; sourceTree = "<group>"; };
+		12DB3AAA2731BA83004AB104 /* City+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+CoreDataClass.swift"; sourceTree = "<group>"; };
+		12DB3AAB2731BA83004AB104 /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		12DB3AAE2731BECF004AB104 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		12E8133B27231B8A000F8600 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DB3A972731B35E004AB104 /* KingfisherSwiftUI in Frameworks */,
+				12DB3A8A2731AC9C004AB104 /* Alamofire in Frameworks */,
+				12DB3A872731AB1E004AB104 /* SwiftyJSON in Frameworks */,
+				12DB3A922731AF4B004AB104 /* Realm in Frameworks */,
+				12DB3A942731AF4B004AB104 /* RealmSwift in Frameworks */,
 				12E1CFB12728804500BA49FC /* ASCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,18 +90,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		128CE27027286CA00032A234 /* Lesson-3 */ = {
-			isa = PBXGroup;
-			children = (
-				128CE271272873410032A234 /* LoginView.swift */,
-				128CE273272874790032A234 /* CitiesView.swift */,
-			);
-			path = "Lesson-3";
-			sourceTree = "<group>";
-		};
 		1298D1DB2720863A00D833EA = {
 			isa = PBXGroup;
 			children = (
+				12DB3AAA2731BA83004AB104 /* City+CoreDataClass.swift */,
+				12DB3AAB2731BA83004AB104 /* City+CoreDataProperties.swift */,
 				1298D1E62720863A00D833EA /* swiftui-1347 */,
 				1298D1E52720863A00D833EA /* Products */,
 			);
@@ -83,9 +112,12 @@
 			isa = PBXGroup;
 			children = (
 				1298D1E72720863A00D833EA /* swiftui_1347App.swift */,
-				128CE27027286CA00032A234 /* Lesson-3 */,
+				12DB3A982731B3E6004AB104 /* Extensions */,
+				12DB3A8B2731ACE5004AB104 /* Services */,
+				12DB3A7C2731A92B004AB104 /* Model */,
+				12DB3A7D2731A935004AB104 /* View */,
+				12DB3A7E2731A948004AB104 /* ViewModel */,
 				12E8133A27231B6C000F8600 /* Lesson-2 */,
-				12E8133D27231B90000F8600 /* Lesson-1 */,
 				1298D1EB2720863C00D833EA /* Assets.xcassets */,
 				1298D1F02720863C00D833EA /* Info.plist */,
 				1298D1ED2720863C00D833EA /* Preview Content */,
@@ -101,20 +133,77 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		12DB3A7C2731A92B004AB104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12DB3A832731AA62004AB104 /* Weather.swift */,
+				12DB3A8E2731ADEC004AB104 /* BackendError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12DB3A7D2731A935004AB104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1298D1E92720863A00D833EA /* ContentView.swift */,
+				128CE271272873410032A234 /* LoginView.swift */,
+				128CE273272874790032A234 /* CitiesView.swift */,
+				12DB3A812731AA19004AB104 /* ForecastView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12DB3A7E2731A948004AB104 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				12DB3A7F2731A9BE004AB104 /* ForecastViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		12DB3A8B2731ACE5004AB104 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12DB3A8C2731ACF3004AB104 /* WeatherService.swift */,
+				12DB3AA02731B8E2004AB104 /* CoreDataService */,
+				12DB3A9F2731B8D7004AB104 /* RealmService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12DB3A982731B3E6004AB104 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12DB3A992731B40E004AB104 /* DateFormatterExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12DB3A9F2731B8D7004AB104 /* RealmService */ = {
+			isa = PBXGroup;
+			children = (
+				12DB3A9B2731B4BC004AB104 /* RealmService.swift */,
+				12DB3A9D2731B76B004AB104 /* DetachableObject.swift */,
+			);
+			path = RealmService;
+			sourceTree = "<group>";
+		};
+		12DB3AA02731B8E2004AB104 /* CoreDataService */ = {
+			isa = PBXGroup;
+			children = (
+				12DB3AA12731B8FA004AB104 /* City.xcdatamodeld */,
+				12DB3AA42731B953004AB104 /* City2.swift */,
+				12DB3AAE2731BECF004AB104 /* CoreDataService.swift */,
+			);
+			path = CoreDataService;
+			sourceTree = "<group>";
+		};
 		12E8133A27231B6C000F8600 /* Lesson-2 */ = {
 			isa = PBXGroup;
 			children = (
 				12E8133B27231B8A000F8600 /* SwiftUIView2.swift */,
 			);
 			path = "Lesson-2";
-			sourceTree = "<group>";
-		};
-		12E8133D27231B90000F8600 /* Lesson-1 */ = {
-			isa = PBXGroup;
-			children = (
-				1298D1E92720863A00D833EA /* ContentView.swift */,
-			);
-			path = "Lesson-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +225,11 @@
 			name = "swiftui-1347";
 			packageProductDependencies = (
 				12E1CFB02728804500BA49FC /* ASCollectionView */,
+				12DB3A862731AB1E004AB104 /* SwiftyJSON */,
+				12DB3A892731AC9C004AB104 /* Alamofire */,
+				12DB3A912731AF4B004AB104 /* Realm */,
+				12DB3A932731AF4B004AB104 /* RealmSwift */,
+				12DB3A962731B35E004AB104 /* KingfisherSwiftUI */,
 			);
 			productName = "swiftui-1347";
 			productReference = 1298D1E42720863A00D833EA /* swiftui-1347.app */;
@@ -166,6 +260,10 @@
 			mainGroup = 1298D1DB2720863A00D833EA;
 			packageReferences = (
 				12E1CFAF2728804500BA49FC /* XCRemoteSwiftPackageReference "ASCollectionView" */,
+				12DB3A852731AB1E004AB104 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				12DB3A882731AC9C004AB104 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				12DB3A902731AF4B004AB104 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				12DB3A952731B35E004AB104 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 1298D1E52720863A00D833EA /* Products */;
 			projectDirPath = "";
@@ -193,10 +291,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DB3AAC2731BA83004AB104 /* City+CoreDataClass.swift in Sources */,
+				12DB3A842731AA62004AB104 /* Weather.swift in Sources */,
+				12DB3A8D2731ACF3004AB104 /* WeatherService.swift in Sources */,
+				12DB3A9A2731B40E004AB104 /* DateFormatterExtension.swift in Sources */,
 				128CE274272874790032A234 /* CitiesView.swift in Sources */,
 				1298D1EA2720863A00D833EA /* ContentView.swift in Sources */,
 				1298D1E82720863A00D833EA /* swiftui_1347App.swift in Sources */,
+				12DB3A802731A9BE004AB104 /* ForecastViewModel.swift in Sources */,
+				12DB3A9E2731B76B004AB104 /* DetachableObject.swift in Sources */,
+				12DB3AAD2731BA83004AB104 /* City+CoreDataProperties.swift in Sources */,
+				12DB3A9C2731B4BC004AB104 /* RealmService.swift in Sources */,
+				12DB3A822731AA19004AB104 /* ForecastView.swift in Sources */,
+				12DB3AA32731B8FA004AB104 /* City.xcdatamodeld in Sources */,
+				12DB3AA52731B953004AB104 /* City2.swift in Sources */,
+				12DB3A8F2731ADEC004AB104 /* BackendError.swift in Sources */,
 				128CE272272873410032A234 /* LoginView.swift in Sources */,
+				12DB3AAF2731BECF004AB104 /* CoreDataService.swift in Sources */,
 				12E8133C27231B8A000F8600 /* SwiftUIView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +499,38 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		12DB3A852731AB1E004AB104 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		12DB3A882731AC9C004AB104 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		12DB3A902731AF4B004AB104 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+		12DB3A952731B35E004AB104 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.13.0;
+			};
+		};
 		12E1CFAF2728804500BA49FC /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apptekstudios/ASCollectionView";
@@ -399,12 +542,50 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		12DB3A862731AB1E004AB104 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12DB3A852731AB1E004AB104 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		12DB3A892731AC9C004AB104 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12DB3A882731AC9C004AB104 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		12DB3A912731AF4B004AB104 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12DB3A902731AF4B004AB104 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		12DB3A932731AF4B004AB104 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12DB3A902731AF4B004AB104 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		12DB3A962731B35E004AB104 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12DB3A952731B35E004AB104 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
 		12E1CFB02728804500BA49FC /* ASCollectionView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 12E1CFAF2728804500BA49FC /* XCRemoteSwiftPackageReference "ASCollectionView" */;
 			productName = ASCollectionView;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		12DB3AA12731B8FA004AB104 /* City.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12DB3AA22731B8FA004AB104 /* City.xcdatamodel */,
+			);
+			currentVersion = 12DB3AA22731B8FA004AB104 /* City.xcdatamodel */;
+			path = City.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1298D1DC2720863A00D833EA /* Project object */;
 }
