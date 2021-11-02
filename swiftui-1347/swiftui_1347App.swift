@@ -11,7 +11,11 @@ import SwiftUI
 struct swiftui_1347App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            let coreDataService = CoreDataService(modelName: "City")
+
+            ContentView().environment(\.managedObjectContext, coreDataService.context)
+            
         }
     }
 }

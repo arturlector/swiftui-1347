@@ -12,7 +12,11 @@ struct ContentView: View {
     
     @State var shouldShowCitiesView: Bool = false
     
+    //let coreDataService = CoreDataService(modelName: "City")
+    
     var body: some View {
+        
+        //let contentView = ContentView().environment(\.managedObjectContext, self.coreDataService.context)
         
 //        LoginView(shouldShowCitiesView: $shouldShowCitiesView)
 //            .sheet(isPresented: $shouldShowCitiesView, content: {
