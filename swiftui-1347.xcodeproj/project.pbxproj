@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		128CE272272873410032A234 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CE271272873410032A234 /* LoginView.swift */; };
 		128CE274272874790032A234 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CE273272874790032A234 /* CitiesView.swift */; };
+		129229A4273AE4330057B1E6 /* ImplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129229A3273AE4330057B1E6 /* ImplicitAnimationView.swift */; };
+		129229A6273AE6EA0057B1E6 /* ClockTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129229A5273AE6EA0057B1E6 /* ClockTime.swift */; };
+		129229A8273AE8830057B1E6 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129229A7273AE8830057B1E6 /* ClockView.swift */; };
+		129229AA273AE9FD0057B1E6 /* GeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129229A9273AE9FD0057B1E6 /* GeometryEffectView.swift */; };
+		129229AC273AF0DF0057B1E6 /* GeometryEffectPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129229AB273AF0DF0057B1E6 /* GeometryEffectPathView.swift */; };
 		1298D1E82720863A00D833EA /* swiftui_1347App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1E72720863A00D833EA /* swiftui_1347App.swift */; };
 		1298D1EA2720863A00D833EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298D1E92720863A00D833EA /* ContentView.swift */; };
 		1298D1EC2720863C00D833EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298D1EB2720863C00D833EA /* Assets.xcassets */; };
@@ -51,6 +56,11 @@
 /* Begin PBXFileReference section */
 		128CE271272873410032A234 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		128CE273272874790032A234 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
+		129229A3273AE4330057B1E6 /* ImplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationView.swift; sourceTree = "<group>"; };
+		129229A5273AE6EA0057B1E6 /* ClockTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTime.swift; sourceTree = "<group>"; };
+		129229A7273AE8830057B1E6 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		129229A9273AE9FD0057B1E6 /* GeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectView.swift; sourceTree = "<group>"; };
+		129229AB273AF0DF0057B1E6 /* GeometryEffectPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectPathView.swift; sourceTree = "<group>"; };
 		1298D1E42720863A00D833EA /* swiftui-1347.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-1347.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1298D1E72720863A00D833EA /* swiftui_1347App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_1347App.swift; sourceTree = "<group>"; };
 		1298D1E92720863A00D833EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129229A2273AE4150057B1E6 /* Lesson-6 */ = {
+			isa = PBXGroup;
+			children = (
+				129229AB273AF0DF0057B1E6 /* GeometryEffectPathView.swift */,
+				129229A9273AE9FD0057B1E6 /* GeometryEffectView.swift */,
+				129229A3273AE4330057B1E6 /* ImplicitAnimationView.swift */,
+				129229A5273AE6EA0057B1E6 /* ClockTime.swift */,
+				129229A7273AE8830057B1E6 /* ClockView.swift */,
+			);
+			path = "Lesson-6";
+			sourceTree = "<group>";
+		};
 		1298D1DB2720863A00D833EA = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +133,7 @@
 		1298D1E62720863A00D833EA /* swiftui-1347 */ = {
 			isa = PBXGroup;
 			children = (
+				129229A2273AE4150057B1E6 /* Lesson-6 */,
 				1298D1E72720863A00D833EA /* swiftui_1347App.swift */,
 				12DB3A982731B3E6004AB104 /* Extensions */,
 				12DB3A8B2731ACE5004AB104 /* Services */,
@@ -292,19 +315,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				12DB3AAC2731BA83004AB104 /* City+CoreDataClass.swift in Sources */,
+				129229AC273AF0DF0057B1E6 /* GeometryEffectPathView.swift in Sources */,
 				12DB3A842731AA62004AB104 /* Weather.swift in Sources */,
 				12DB3A8D2731ACF3004AB104 /* WeatherService.swift in Sources */,
 				12DB3A9A2731B40E004AB104 /* DateFormatterExtension.swift in Sources */,
+				129229A8273AE8830057B1E6 /* ClockView.swift in Sources */,
 				128CE274272874790032A234 /* CitiesView.swift in Sources */,
 				1298D1EA2720863A00D833EA /* ContentView.swift in Sources */,
 				1298D1E82720863A00D833EA /* swiftui_1347App.swift in Sources */,
 				12DB3A802731A9BE004AB104 /* ForecastViewModel.swift in Sources */,
 				12DB3A9E2731B76B004AB104 /* DetachableObject.swift in Sources */,
+				129229A6273AE6EA0057B1E6 /* ClockTime.swift in Sources */,
 				12DB3AAD2731BA83004AB104 /* City+CoreDataProperties.swift in Sources */,
 				12DB3A9C2731B4BC004AB104 /* RealmService.swift in Sources */,
 				12DB3A822731AA19004AB104 /* ForecastView.swift in Sources */,
 				12DB3AA32731B8FA004AB104 /* City.xcdatamodeld in Sources */,
+				129229AA273AE9FD0057B1E6 /* GeometryEffectView.swift in Sources */,
 				12DB3AA52731B953004AB104 /* City2.swift in Sources */,
+				129229A4273AE4330057B1E6 /* ImplicitAnimationView.swift in Sources */,
 				12DB3A8F2731ADEC004AB104 /* BackendError.swift in Sources */,
 				128CE272272873410032A234 /* LoginView.swift in Sources */,
 				12DB3AAF2731BECF004AB104 /* CoreDataService.swift in Sources */,
