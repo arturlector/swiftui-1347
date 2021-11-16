@@ -8,14 +8,31 @@
 import SwiftUI
 import Combine
 
+class LoginViewModel: ObservableObject {
+    @Published var isUserLoggedIn = false
+}
+
 struct LoginView: View {
     
-    @Binding var shouldShowCitiesView: Bool
+// .... код пропущен
+    @ObservedObject var viewModel: LoginViewModel
+
+    //@Binding var shouldShowCitiesView: Bool
     
     @State var login: String = ""
     @State var password: String = ""
     @State private var shouldShowLogo: Bool = true
-    @State private var showIncorrentCredentialsWarning = false
+    @State private var showIncorrectCredentialsWarning = false
+    
+   // .... код пропущен
+   private func verifyLoginData() {
+       if login == "bar" && password == "foo" {
+           viewModel.isUserLoggedIn = true
+       } else {
+           showIncorrectCredentialsWarning = true
+       }
+       password = ""
+   }
     
     private let keyboardIsOnPublisher = Publishers.Merge(
           NotificationCenter.default.publisher(for: UIResponder.keyboardWillChangeFrameNotification)
@@ -95,22 +112,13 @@ struct LoginView: View {
         .onTapGesture {
             UIApplication.shared.endEditing()
         }
-        .alert(isPresented: self.$showIncorrentCredentialsWarning, content: {
+        .alert(isPresented: self.$showIncorrectCredentialsWarning, content: {
             
             Alert(title: Text("Incorrect Credentials"), message: Text("Incorrect login or password"), dismissButton: .cancel())
         })
     }
     
-    private func verifyLoginData() {
-        if login == "bar" && password == "foo" {
-            // authorizing user
-            shouldShowCitiesView = true
-        } else {
-            showIncorrentCredentialsWarning = true
-        }
-        // сбрасываем пароль, после проверки для лучшего UX
-        password = ""
-    }
+    
 }
 
 
@@ -121,8 +129,3 @@ extension UIApplication {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView(shouldShowCitiesView: .constant(false))
-    }
-}

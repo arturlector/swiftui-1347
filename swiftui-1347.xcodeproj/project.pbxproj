@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1243F0DD273ED9E8007301B2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243F0DC273ED9E8007301B2 /* ActivityView.swift */; };
+		1243F0DF273ED9FD007301B2 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243F0DE273ED9FD007301B2 /* ActivityIndicator.swift */; };
+		1243F0E1273EE06F007301B2 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243F0E0273EE06F007301B2 /* Switch.swift */; };
+		1243F0E3273EE088007301B2 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243F0E2273EE088007301B2 /* SwitchView.swift */; };
+		1243F0E5273EE380007301B2 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1243F0E4273EE380007301B2 /* SafariView.swift */; };
 		128CE272272873410032A234 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CE271272873410032A234 /* LoginView.swift */; };
 		128CE274272874790032A234 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128CE273272874790032A234 /* CitiesView.swift */; };
 		129229A4273AE4330057B1E6 /* ImplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129229A3273AE4330057B1E6 /* ImplicitAnimationView.swift */; };
@@ -54,6 +59,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1243F0DC273ED9E8007301B2 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		1243F0DE273ED9FD007301B2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		1243F0E0273EE06F007301B2 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		1243F0E2273EE088007301B2 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		1243F0E4273EE380007301B2 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		128CE271272873410032A234 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		128CE273272874790032A234 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
 		129229A3273AE4330057B1E6 /* ImplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationView.swift; sourceTree = "<group>"; };
@@ -100,6 +110,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1243F0DB273ED9B8007301B2 /* Lesson-7 */ = {
+			isa = PBXGroup;
+			children = (
+				1243F0DC273ED9E8007301B2 /* ActivityView.swift */,
+				1243F0DE273ED9FD007301B2 /* ActivityIndicator.swift */,
+				1243F0E0273EE06F007301B2 /* Switch.swift */,
+				1243F0E2273EE088007301B2 /* SwitchView.swift */,
+				1243F0E4273EE380007301B2 /* SafariView.swift */,
+			);
+			path = "Lesson-7";
+			sourceTree = "<group>";
+		};
 		129229A2273AE4150057B1E6 /* Lesson-6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +155,7 @@
 		1298D1E62720863A00D833EA /* swiftui-1347 */ = {
 			isa = PBXGroup;
 			children = (
+				1243F0DB273ED9B8007301B2 /* Lesson-7 */,
 				129229A2273AE4150057B1E6 /* Lesson-6 */,
 				1298D1E72720863A00D833EA /* swiftui_1347App.swift */,
 				12DB3A982731B3E6004AB104 /* Extensions */,
@@ -319,6 +342,7 @@
 				12DB3A842731AA62004AB104 /* Weather.swift in Sources */,
 				12DB3A8D2731ACF3004AB104 /* WeatherService.swift in Sources */,
 				12DB3A9A2731B40E004AB104 /* DateFormatterExtension.swift in Sources */,
+				1243F0DD273ED9E8007301B2 /* ActivityView.swift in Sources */,
 				129229A8273AE8830057B1E6 /* ClockView.swift in Sources */,
 				128CE274272874790032A234 /* CitiesView.swift in Sources */,
 				1298D1EA2720863A00D833EA /* ContentView.swift in Sources */,
@@ -329,10 +353,14 @@
 				12DB3AAD2731BA83004AB104 /* City+CoreDataProperties.swift in Sources */,
 				12DB3A9C2731B4BC004AB104 /* RealmService.swift in Sources */,
 				12DB3A822731AA19004AB104 /* ForecastView.swift in Sources */,
+				1243F0DF273ED9FD007301B2 /* ActivityIndicator.swift in Sources */,
+				1243F0E3273EE088007301B2 /* SwitchView.swift in Sources */,
 				12DB3AA32731B8FA004AB104 /* City.xcdatamodeld in Sources */,
 				129229AA273AE9FD0057B1E6 /* GeometryEffectView.swift in Sources */,
+				1243F0E5273EE380007301B2 /* SafariView.swift in Sources */,
 				12DB3AA52731B953004AB104 /* City2.swift in Sources */,
 				129229A4273AE4330057B1E6 /* ImplicitAnimationView.swift in Sources */,
+				1243F0E1273EE06F007301B2 /* Switch.swift in Sources */,
 				12DB3A8F2731ADEC004AB104 /* BackendError.swift in Sources */,
 				128CE272272873410032A234 /* LoginView.swift in Sources */,
 				12DB3AAF2731BECF004AB104 /* CoreDataService.swift in Sources */,

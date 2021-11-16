@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct swiftui_1347App: App {
+    
+    
     var body: some Scene {
         WindowGroup {
             
@@ -21,7 +23,13 @@ struct swiftui_1347App: App {
             
             //GeometryEffectView()
             
-            GeometryEffectPathView()
+            //GeometryEffectPathView()
+            
+            //ActivityView()
+            
+            //SwitchView()
+            
+            ContentViewWithController()
         }
     }
 }

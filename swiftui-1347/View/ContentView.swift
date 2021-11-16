@@ -5,6 +5,7 @@
 //  Created by Artur Igberdin on 20.10.2021.
 //
 
+/*
 import SwiftUI
 import Combine
 
@@ -40,3 +41,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+ */
